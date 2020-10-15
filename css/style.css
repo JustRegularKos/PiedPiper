@@ -1,0 +1,268 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+header {
+  background-color: #007765;
+  position: sticky;
+  top: 0px;
+}
+header .header__content {
+  max-height: 84px;
+  max-width: 1219px;
+  margin: 0 auto 0 auto;
+}
+header .header__content img {
+  position: relative;
+  top: 18px;
+  padding-left: 55px;
+}
+header .header__content .header__text {
+  position: relative;
+  width: 400px;
+  top: -30px;
+  left: 800px;
+}
+header .header__content .header__text p {
+  display: inline-block;
+  max-height: 29px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+}
+header .header__content .header__text p a {
+  color: #ffffff;
+}
+
+.green__block {
+  background: url(../img/image__green.png) 0 0/cover no-repeat;
+  height: 403px;
+  margin-top: 0px;
+}
+.green__block p {
+  display: block;
+  max-width: 1219px;
+  margin: 0 auto 0 auto;
+  padding-top: 170px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.main {
+  height: 719px;
+  background: #EEEEEE;
+}
+.main .main__text {
+  max-width: 1219px;
+  margin: 0 auto 0 auto;
+}
+.main .main__text h2 {
+  display: inline-block;
+  margin: 90px 0 50px 460px;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  color: #007765;
+}
+.main .main__text p {
+  margin: 0 50px 0 50px;
+  font-family: Roboto;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+}
+.main .main__text span {
+  font-weight: 600;
+}
+
+.blue__block {
+  background: url(../img/image__blue.png) 0 0/cover no-repeat;
+  height: 483px;
+}
+.blue__block p {
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #FFFFFF;
+  display: block;
+  width: 893px;
+  margin: 0 auto 0 auto;
+  padding-top: 160px;
+}
+
+.intro {
+  height: 604px;
+}
+.intro .intro__text {
+  width: 1110px;
+  margin: 0 auto 0 auto;
+}
+.intro .intro__text h2 {
+  display: block;
+  margin: 0 0 30px 200px;
+  padding-top: 85px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  color: #007765;
+}
+.intro .intro__text img {
+  float: left;
+  margin-right: 50px;
+}
+.intro .intro__text p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+}
+
+.team {
+  height: 845px;
+  background: #EEEEEE;
+}
+.team h2 {
+  margin: 0;
+  padding: 70px 0 0 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+}
+.team h3 {
+  margin: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #007765;
+}
+.team p {
+  margin: 0;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #000000;
+}
+.team .team__content {
+  width: 1219px;
+  margin: 0 auto 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.team .team__content .Hendricks, .team .team__content .Chugtai, .team .team__content .Gilfoyle, .team .team__content .Dunn, .team .team__content .Hall, .team .team__content .Bighatti {
+  padding: 80px 65px 0 65px;
+}
+.team .team__content .Hendricks img, .team .team__content .Chugtai img, .team .team__content .Gilfoyle img, .team .team__content .Dunn img, .team .team__content .Hall img, .team .team__content .Bighatti img {
+  margin: 0 15px 0 15px;
+}
+
+footer {
+  background: #333333;
+  height: 176px;
+}
+footer .footer__text {
+  width: 540px;
+  margin: 0 auto 0 auto;
+  padding-top: 50px;
+}
+footer .footer__text p {
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+}
+/*# sourceMappingURL=style.css.map */

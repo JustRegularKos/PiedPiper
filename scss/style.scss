@@ -1,0 +1,204 @@
+@import "nullstyle.scss";
+
+//шаблоны
+$mw:1219px;
+
+//стили
+
+//шапка
+header{
+	background-color: #007765;
+	position: sticky;
+	top: 0px;
+		.header__content{
+			max-height: 84px;
+			max-width: $mw;
+			margin:0 auto 0 auto;
+		img{
+			position: relative;
+			top:18px;
+			padding-left: 55px;
+		}
+		.header__text{
+			position: relative;
+			width:400px;
+			top:-30px;
+			left:800px;
+			p{
+				display: inline-block;
+				max-height: 29px;
+				font-family: Roboto;
+				font-style: normal;
+				font-weight: 500;
+				font-size: 24px;
+				line-height: 28px;
+				text-align: center;
+				color: #ffffff;
+				a{
+					color: #ffffff;
+				}
+			}
+		}
+	}
+}
+//зеленый блок
+.green__block{
+	background: url(../img/image__green.png)0 0/cover no-repeat;
+	height:403px;
+	margin-top: 0px;
+	p{
+		display: block;
+		max-width: $mw;
+		margin:0 auto 0 auto;
+		padding-top: 170px;
+		font-family: Roboto;
+		font-weight: 500;
+		font-size: 72px;
+		line-height: 84px;
+		text-align: center;
+		color: #FFFFFF;
+	}
+}//основной блок
+.main{
+	height: 719px;
+	background: #EEEEEE;
+	.main__text{
+		max-width: $mw;
+		margin:0 auto 0 auto;
+		h2{
+			display: inline-block;
+			margin: 90px 0 50px 460px;
+			text-align: center;
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 64px;
+			line-height: 75px;
+			color: #007765;
+		}
+		p{
+			margin: 0 50px 0 50px;
+			font-family: Roboto;
+			font-size: 32px;
+			line-height: 37px;
+			color: #000000;
+		}
+		span{
+			font-weight: 600;
+		}
+	}
+}
+//синий блок
+.blue__block{
+	background: url(../img/image__blue.png)0 0/cover no-repeat;
+	height: 483px;
+	p{
+		font-family: Roboto;
+		font-style: italic;
+		font-weight: 500;
+		font-size: 48px;
+		line-height: 56px;
+		text-align: center;
+		color: #FFFFFF;
+		display: block;
+		width: 893px;
+		margin: 0 auto 0 auto;
+		padding-top: 160px
+	}
+}
+//презентация
+.intro{
+	height: 604px;
+	.intro__text{
+		width: 1110px;
+		margin: 0 auto 0 auto;
+		h2{
+		display: block;
+		margin: 0 0 30px 200px;
+		padding-top: 85px;
+		font-family: Roboto;
+		font-weight: 500;
+		font-size: 64px;
+		line-height: 75px;
+		color: #007765;
+		}
+		img{
+			float: left;
+			margin-right: 50px;
+		}
+		p{
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 32px;
+			line-height: 37px;
+			color: #000000;
+		}
+	}
+}
+//команда
+.team{
+	height: 845px;
+	background: #EEEEEE;
+	h2{
+		margin: 0;
+		padding: 70px 0 0 0;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 64px;
+		line-height: 75px;
+		text-align: center;
+		color: #007765;
+	}
+	h3{
+		margin: 0;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 28px;
+		text-align: center;
+		color: #007765;
+	}
+	p{
+		margin: 0;
+		font-family: Roboto;
+		font-style: italic;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 21px;
+		text-align: center;
+		color: #000000;
+	}
+	.team__content{
+		width: $mw;
+		margin: 0 auto 0 auto;
+		display: flex;
+		justify-content: space-evenly;
+		flex-wrap:wrap;
+		.Hendricks,.Chugtai,.Gilfoyle,.Dunn,.Hall,.Bighatti{
+			padding: 80px 65px 0 65px;
+			img{
+				margin: 0 15px 0 15px;
+			}
+		}
+	}
+}
+//подвал
+footer{
+	background: #333333;
+	height: 176px;
+	.footer__text{
+		width: 540px;
+		margin: 0 auto 0 auto;
+		padding-top: 50px;
+		p{
+			font-family: Roboto;
+			font-size: 18px;
+			line-height: 21px;
+			text-align: center;
+			color: #FFFFFF;
+		}
+	}
+}
